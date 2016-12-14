@@ -1,0 +1,50 @@
+.noresize {
+    resize: none;
+}
+.alert{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn{
+    white-space: normal;
+}
+
+.trash{
+    width:30px;
+}
+
+select {
+    width:100%;
+    border: 1px solid #bbb;
+    padding:.25em 1em .25em 1em;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.2);
+    background-color:white;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+select:hover {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+}
+
+option {
+    background:white;
+    padding:.25em 1em .25em 1em;
+}
+
+.transparentbackground {
+    background-color: rgba(0,0,0,0.0) !important;
+}
+
+.nopadding {
+    padding: 0,0,0,0;
+}
+
+.modal .modal-dialog { width: 700px; }
+
+.table-body-hover > tbody:hover {
+    background-color: #f5f5f5;
+}
