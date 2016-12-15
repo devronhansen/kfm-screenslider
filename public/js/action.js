@@ -24,7 +24,7 @@ $(document).ready(function () {
                 if(typeof Interval !== 'undefined'){
                     clearInterval(Interval);
                 }
-                Interval = setInterval(loadData, (data.length * 10266));
+                Interval = setInterval(loadData, (data.length * 5133));
             }
         });
     }
